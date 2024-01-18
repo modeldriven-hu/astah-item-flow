@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<plugin>
+   <extension point="com.change_vision.astah.ui.actionSets">
+      <actionSet
+            label="%action_set_label"
+            visible="true"
+            id="hu.modeldriven.astah-line-fix.actionSet">
+         <menu
+               id="astah-line-fix"
+               label="%menu_group"
+               path="tool/astah-line-fix">
+         </menu>
+         <action
+			   label="%menu_label"
+               icon="icons/sample.gif"
+               class="hu.modeldriven.astah.linefix.TemplateAction"
+               tooltip="%menu_tooltip"
+               menubarPath="tool/astah-line-fix/"
+               id="astah-line-fix">
+         </action>
+     </actionSet>
+   </extension>
+</plugin>
