@@ -1,4 +1,4 @@
-package hu.modeldriven.astah.linefix;
+package hu.modeldriven.astah.itemflow;
 
 
 import org.osgi.framework.BundleActivator;

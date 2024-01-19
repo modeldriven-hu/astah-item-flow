@@ -4,19 +4,19 @@
       <actionSet
             label="%action_set_label"
             visible="true"
-            id="hu.modeldriven.astah-line-fix.actionSet">
+            id="hu.modeldriven.sysml.itemflow.actionSet">
          <menu
-               id="astah-line-fix"
+               id="modeldriven-sysml"
                label="%menu_group"
-               path="tool/astah-line-fix">
+               path="tool/modeldriven-sysml">
          </menu>
          <action
 			   label="%menu_label"
                icon="icons/sample.gif"
-               class="hu.modeldriven.astah.linefix.FixLineAction"
+               class="hu.modeldriven.astah.itemflow.FixItemFlowAction"
                tooltip="%menu_tooltip"
-               menubarPath="tool/astah-line-fix/"
-               id="astah-line-fix">
+               menubarPath="tool/modeldriven-sysml/"
+               id="astah-item-flow">
          </action>
      </actionSet>
    </extension>
