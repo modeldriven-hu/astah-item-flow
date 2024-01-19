@@ -5,7 +5,7 @@ import static org.junit.Assert.*;
 import org.junit.Test;
 
 
-public class TemplateActionTest {
+public class FixLineActionTest {
 	
 	@Test
 	public void testname() throws Exception {

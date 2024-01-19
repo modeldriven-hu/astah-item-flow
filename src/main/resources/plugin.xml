@@ -13,7 +13,7 @@
          <action
 			   label="%menu_label"
                icon="icons/sample.gif"
-               class="hu.modeldriven.astah.linefix.TemplateAction"
+               class="hu.modeldriven.astah.linefix.FixLineAction"
                tooltip="%menu_tooltip"
                menubarPath="tool/astah-line-fix/"
                id="astah-line-fix">
